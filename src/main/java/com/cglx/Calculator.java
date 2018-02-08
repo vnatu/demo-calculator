@@ -30,7 +30,7 @@ public class Calculator {
         return a*a;
     }
 
-    public boolean areEqual(float f1, float f2) {
+    public boolean areEqual(int f1, int f2) {
         return f1 == f2;
     }
 }
