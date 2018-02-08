@@ -29,4 +29,8 @@ public class Calculator {
     {
         return a*a;
     }
+
+    public boolean areEqual(int f1, int f2) {
+        return f1 == f2;
+    }
 }
