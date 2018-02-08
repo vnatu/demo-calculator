@@ -24,4 +24,9 @@ public class Calculator {
     {
         return a - b;
     }
+
+    public int square(int a)
+    {
+        return a*a;
+    }
 }
