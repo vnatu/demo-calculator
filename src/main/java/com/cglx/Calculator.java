@@ -27,10 +27,11 @@ public class Calculator {
 
     public int square(int a)
     {
-        return a*a;
+        int result = a * a;
+        return result;
     }
 
-    public boolean areEqual(int f1, int f2) {
+    public boolean areEqual(float f1, float f2) {
         return f1 == f2;
     }
 }
