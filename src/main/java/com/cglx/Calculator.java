@@ -22,7 +22,8 @@ public class Calculator {
 
     public int substract(int a, int b)
     {
-        return a - b;
+        int result = a - b;
+        return result;
     }
 
     public int square(int a)
