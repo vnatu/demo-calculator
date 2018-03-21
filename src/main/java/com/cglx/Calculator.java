@@ -27,7 +27,8 @@ public class Calculator {
 
     public int square(int a)
     {
-        return a*a;
+        int result = a * a;
+        return result;
     }
 
     public boolean areEqual(float f1, float f2) {
