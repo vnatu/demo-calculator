@@ -33,6 +33,7 @@ public class Calculator {
     }
 
     public boolean areEqual(float f1, float f2) {
-        return f1 == f2;
+        boolean result = (f1==f2);
+        return result;
     }
 }
