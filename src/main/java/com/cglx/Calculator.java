@@ -52,7 +52,7 @@ public class Calculator {
       }
       catch (Exception e)
       {
-        //System.err.format("Exception occurred trying to read '%s'.", filename);
+        System.err.format("Exception occurred trying to read '%s'.", filename);
         e.printStackTrace();
         return null;
       }
