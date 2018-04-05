@@ -37,7 +37,11 @@ public class Calculator {
         return a * a;
     }
 
-    
+    public int square(int a)
+    {
+        int result = a * a;
+        return result;
+    }
 
     public int remainder(int a, int b)
     {
