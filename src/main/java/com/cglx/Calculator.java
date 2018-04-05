@@ -31,7 +31,14 @@ public class Calculator {
         return a * a;
     }
 
-    public boolean areEqual(float f1, float f2) {
-        return f1==f2;
+    private void readFile() {
+        FileInputStream fis = new FileInputStream(new File("TestFile.txt"));
+        
+    }
+
+    public int remainder(int a, int b)
+    {
+        int result = a%b;
+        return result;
     }
 }
