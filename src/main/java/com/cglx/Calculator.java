@@ -32,10 +32,6 @@ public class Calculator {
         return result;
     }
 
-    public int square(int a)
-    {
-        return a * a;
-    }
 
     public int square(int a)
     {
