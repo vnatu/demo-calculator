@@ -37,6 +37,7 @@ public class Calculator {
 
     public int remainder(int a, int b)
     {
-        return a % b;
+        int result = a%b;
+        return result;
     }
 }
