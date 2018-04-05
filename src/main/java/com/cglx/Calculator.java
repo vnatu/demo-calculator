@@ -31,7 +31,10 @@ public class Calculator {
         return a * a;
     }
 
-    
+    private void readFile() {
+        FileInputStream fis = new FileInputStream(new File("TestFile.txt"));
+        
+    }
 
     public int remainder(int a, int b)
     {
