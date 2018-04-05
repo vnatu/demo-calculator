@@ -1,5 +1,11 @@
 package com.cglx;
-
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 public class Calculator {
 
     public Calculator() {
@@ -31,9 +37,25 @@ public class Calculator {
         return a * a;
     }
 
-    private void readFile() {
-        FileInputStream fis = new FileInputStream(new File("TestFile.txt"));
-        
+    private List<String> readFile(String filename)
+    {
+      List<String> records = new ArrayList<String>();
+      try
+      {
+        BufferedReader reader = new BufferedReader(new FileReader(filename));
+        String line;
+        while ((line = reader.readLine()) != null)
+        {
+          records.add(line);
+        }
+        return records;
+      }
+      catch (Exception e)
+      {
+        System.err.format("Exception occurred trying to read '%s'.", filename);
+        e.printStackTrace();
+        return null;
+      }
     }
 
     public int remainder(int a, int b)
