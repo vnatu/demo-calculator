@@ -1,5 +1,6 @@
 package com.cglx;
 
+
 public class Calculator {
 
     public Calculator() {
@@ -27,7 +28,12 @@ public class Calculator {
 
     public int square(int a)
     {
-        return a*a;
+    		int result = a*a;
+        return result;
+    }
+
+    public int squrt(int a) {
+        return (int)Math.sqrt(a);
     }
 
     public boolean areEqual(int f1, int f2) {
