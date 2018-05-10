@@ -44,4 +44,8 @@ public class Calculator {
         int result = a%b;
         return result;
     }
+
+    public int sqroot(int a) {
+        return (int)Math.sqrt(a);
+    }
 }
