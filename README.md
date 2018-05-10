@@ -1,5 +1,5 @@
 <!-- TITLE/ -->
-<a href="http://39534a83.ngrok.io/api/project_badges/measure?project=cglx%3Ademo-calculator&metric=alert_status" />
+https://39534a83.ngrok.io/api/project_badges/measure?project=cglx%3Ademo-calculator&metric=alert_status
 
 <!-- /BADGES -->
 # demo-calculator
