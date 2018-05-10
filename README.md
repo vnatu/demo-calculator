@@ -1,6 +1,7 @@
 <!-- TITLE/ -->
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
+[![SonarStatus]([![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)]
 <!-- /BADGES -->
 # demo-calculator
 A demo calculator project to try out github notification
