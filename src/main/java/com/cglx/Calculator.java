@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class Calculator {
 
@@ -48,7 +47,6 @@ public class Calculator {
     }
 
     public int sqroot(int a) {
-    		int result = (int)Math.sqrt(a);
-        return result;
+        return (int)Math.sqrt(a);
     }
 }
