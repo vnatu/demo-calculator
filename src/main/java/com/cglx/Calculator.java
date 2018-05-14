@@ -1,5 +1,11 @@
 package com.cglx;
-
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 public class Calculator {
 
     public Calculator() {
@@ -22,15 +28,20 @@ public class Calculator {
 
     public int substract(int a, int b)
     {
-        return a - b;
+        int result = a - b;
+        return result;
     }
+
 
     public int square(int a)
     {
-        return a*a;
+        int result = a * a;
+        return result;
     }
 
-    public boolean areEqual(int f1, int f2) {
-        return f1 == f2;
+    public int remainder(int a, int b)
+    {
+        int result = a%b;
+        return result;
     }
 }
