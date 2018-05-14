@@ -36,5 +36,5 @@ public class CalculatorTest {
         Assert.assertEquals(10, result);
     }
 
-
+   
 }
