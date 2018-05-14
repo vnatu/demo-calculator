@@ -1,4 +1,5 @@
 package com.cglx;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+
 public class Calculator {
 
     public Calculator() {
@@ -35,8 +37,13 @@ public class Calculator {
 
     public int square(int a)
     {
-        int result = a * a;
+    		int result = a*a;
         return result;
+    }
+
+    public int squrt(int a) {
+        return (int)Math.sqrt(a);
+
     }
 
     public int remainder(int a, int b)
