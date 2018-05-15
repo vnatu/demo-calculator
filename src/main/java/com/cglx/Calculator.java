@@ -37,27 +37,5 @@ public class Calculator {
 		return result;
 	}
 
-	public int remainder(int a, int b) {
-		int result = a % b;
-		return result;
-	}
-
-	public int sqroot(int a) {
-
-		return (int) Math.sqrt(a);
-	}
-
-	private void readFile() throws IOException {
-		BufferedReader reader = new BufferedReader(new FileReader("testfile.txt"));
-		StringBuilder stringBuilder = new StringBuilder();
-		char[] buffer = new char[10];
-		while (reader.read(buffer) != -1) {
-			stringBuilder.append(new String(buffer));
-			buffer = new char[10];
-		}
-		reader.close();
-
-		String content = stringBuilder.toString();
-		System.out.println(content);
-	}
+	
 }
