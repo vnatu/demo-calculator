@@ -36,6 +36,16 @@ public class Calculator {
 		int result = a * a;
 		return result;
 	}
+	
+	public int remainder(int a, int b)
+	{
+		return a % b;
+	}
+	
+	public double sqrt(double a) {
+		double result = Math.sqrt(a);
+		return result;
+	}
 
 	
 }
